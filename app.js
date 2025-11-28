@@ -1,9 +1,7 @@
-const amount = 9
+// Modules
+const names = require('./4-names')
+const sayHi = require('./5-ultis')
+const data = require('./6-alternative-flavor')
+require('./7-mind-ger')
 
-if (amount < 10){
-    console.log('Small number');
-}else{
-    console.log('large number');
-}
-
-console.log('hello node!!')
+console.log(names)
